@@ -19,3 +19,9 @@ So we can assure that the two major versions 7.x.x and 7.1.x will be supported.
 > A package MUST work on a UNIX environment.
 
 The code should be executeable on UNIX machines (macOS & Linux Distros). Windows is a plus, not a main requirement.
+
+## Code Style
+
+> Code style is a subjective matter not a objective one. So it has no relevance to be part of a standard. Readability however is. 
+
+Code style is defined by the project. Follow the style of the project you are contributing to. Use clean descriptors and MOST readable code. 
