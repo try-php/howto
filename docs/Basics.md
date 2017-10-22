@@ -1,10 +1,10 @@
-# Requirements
+# Basics
 
 ## Package, Naming & Namespacing
 
 > The main goal of this project, is not to vendor everything. But it will follow the UNIX guideline of developing software. One piece of code (sofware/programm) should do one thing, but do it very well. For a new job, rather create a new project than complicate an already existing one. And every piece of code should "play well with others".
 
-Therefore the goal of this project is to create small and precise packages that can be assemled in any way. 
+Therefore the goal of this project is to create small and precise packages that can be assemled in any way. ([Unix Philosophy](http://www.faqs.org/docs/artu/ch01s06.html))
 
 > Package sources need to be scoped in the `TryPhp` namespace. Any function, class or constant. The naming should follow simple guidelines and be short and concise.
 

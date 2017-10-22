@@ -7,4 +7,4 @@ In this repository there can be found some resources how to contribute/develop t
 
 ## Contents
 
-1. [Requirements](./docs/Requirements.md)
+1. [Basics](./docs/Basics.md)
