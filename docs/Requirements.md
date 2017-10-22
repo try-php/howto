@@ -1,19 +1,21 @@
 # Requirements
 
-## Package Naming & Namespacing
+## Package, Naming & Namespacing
 
-* Package names SHOULD BE short an concise
+> The main goal of this project, is not to vendor everything. But it will follow the UNIX guideline of developing software. One piece of code (sofware/programm) should do one thing, but do it very well. For a new job, rather create a new project than complicate an already existing one. And every piece of code should "play well with others".
 
-The project will not aim to vendor everything, but it should contain rather smaller packages/modules that can be assemled and reused in any form, then bigger ones.
+Therefore the goal of this project is to create small and precise packages that can be assemled in any way. 
 
-Follow the simple guideline, that a tool (in our case a library) should do one thing, and one thing only, but this thing very well & it should play well with others.
+> Package sources need to be scoped in the `TryPhp` namespace. Any function, class or constant. The naming should follow simple guidelines and be short and concise.
 
-* Package source files MUST always be scoped in the `TryPhp` namespace and SHOULD BE short and concise
-
-It is not necessary to name a class for example like `TryPhp\Validation\Validator` with a function `validate()`. `TryPhp\Validato` will suffice. If not it can always be changed in the future if it comes to name collisions.
-
-Aswell functions can be assigned directly to the `TryPhp` namespace. Same reasoning as with classes.
+It is not necessary to name a class for example like `TryPhp\Validation\Validator` with a function `validate()`. `TryPhp\Validator` will suffice.
 
 ## Platform requirements
 
-* Every package should depend on `>=7.0`
+> Every package should depend on `php >= 7.0`. There are no limitations of standard extensions.
+
+So we can assure that the two major versions 7.x.x and 7.1.x will be supported. 
+
+> A package MUST work on a UNIX environment.
+
+The code should be executeable on UNIX machines (macOS & Linux Distros). Windows is a plus, not a main requirement.
