@@ -29,6 +29,6 @@ require_once '/path/to/autoload.php';
 |---|---|---|
 | $argument | `string` | Some argument description. |
 
-## Lincense
+## License
 
 GPL-2.0/MIT/... © Firstname Lastname

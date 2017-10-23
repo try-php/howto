@@ -8,3 +8,11 @@ In this repository there can be found some resources how to contribute/develop t
 ## Contents
 
 1. [Basics](./docs/Basics.md)
+
+## Additional
+
+* [Templates](./templates)
+
+## License
+
+MIT © Willi Eßer
